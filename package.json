@@ -1,0 +1,33 @@
+{
+  "name": "protest-guide",
+  "version": "1.0.0",
+  "dependencies": {
+    "@material-ui/core": "^3.2.2",
+    "@material-ui/icons": "^3.0.1",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "jss": "^9.8.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-helmet": "^5.2.0",
+    "react-jss": "^8.6.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop"
+  },
+  "devDependencies": {
+    "gatsby": "^2.0.19",
+    "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-google-fonts": "0.0.4",
+    "gatsby-plugin-sass": "^2.0.1",
+    "node-sass": "^4.9.4",
+    "prettier": "^1.14.2",
+    "prop-types": "^15.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}
