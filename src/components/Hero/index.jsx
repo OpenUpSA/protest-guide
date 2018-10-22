@@ -15,7 +15,7 @@ const Hero = ({ classes }) => {
           Resources for
         </Typography>
         <Typography variant="display4" component="span" className={largeText}>
-          &nbsp;organising a protest&nbsp;
+          &nbsp;organising a protest
         </Typography>
       </h1>
     </div>
