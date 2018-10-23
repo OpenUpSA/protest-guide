@@ -60,6 +60,9 @@ const styles = theme => ({
 
   textWhite: {
     color: 'white',
+    textTransform: 'lowercase',
+    fontFamily: 'Archivo, Arial, sans-serif',
+    fontWeight: 'bold'
   },
 
   divider: {
@@ -74,6 +77,12 @@ const styles = theme => ({
 
   helplineWrapper: {
     textDecoration: 'none'
+  },
+
+  callIcon: {
+    transform: 'rotate(-90deg)',
+    width: 30,
+    height: 30,
   },
 
 })

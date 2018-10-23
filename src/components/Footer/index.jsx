@@ -16,7 +16,8 @@ const Footer = ({ classes }) => {
     links,
     linkUnderline,
     textWhite,
-    divider
+    divider,
+    callIcon
   } = classes;
 
 
@@ -24,7 +25,7 @@ const Footer = ({ classes }) => {
     <div className={helpline}>
       <Typography component="span" className={helpLineTitle}>Right2Protest helpline</Typography>
       
-      <CallIcon color="primary" fontSize="large" />
+      <CallIcon color="primary" fontSize="large" className={callIcon}/>
   
       <a href="tel:+27117178645" className={helplineWrapper}>
         <Button component="span" className={helplineText}>011 717 8645</Button>
