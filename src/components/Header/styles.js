@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core';
 const styles = {
   root: {
     backgroundColor: 'white',
+    boxShadow: '0 1px 10px rgba(0, 0, 0, 0.2)',
   },
 
   content: {
