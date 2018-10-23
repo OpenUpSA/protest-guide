@@ -22,7 +22,7 @@ const styles = {
     fontWeight: 700,
     padding: '4px 13px',
     fontSize: '1.1rem',
-    fontFamily: 'Oswald',
+    fontFamily: 'Oswald, Arial, sans-serif',
   }
 }
 

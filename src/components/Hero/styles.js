@@ -63,7 +63,9 @@ const styles = theme => ({
   quote: {
     fontSize: '1rem',
     textAlign: 'center',
-    color: '#656565',
+    // color: '#656565',
+    maxWidth: 415,
+    fontFamily: 'Oswald, Arial, sans-serif',
   
     [theme.breakpoints.up('sm')]: {
       fontSize: '1.5rem',
@@ -76,8 +78,8 @@ const styles = theme => ({
     display: 'block',
     fontSize: '1rem',
     color: '#FF9015',
-    textTransform: 'uppercase',
     textAlign: 'center',
+    fontFamily: 'Oswald, Arial, sans-serif',
   }
 })
 

@@ -33,7 +33,7 @@ const Hero = ({ classes }) => {
             “Everyone has the right, peacefully and unarmed, to assemble, to demonstrate, to picket and to present petitions.”
           </Typography>
           <Typography className={attribution} component="span">
-            Section 17 of the constitution
+            - Section 17 of the constitution
           </Typography>
         </p>
       </Card>
