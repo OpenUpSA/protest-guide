@@ -38,7 +38,6 @@ const styles = theme => ({
     color: '#212121',
     flexGrow: 1,
     fontSize: '1.25rem',
-    marginTop: '0.5rem',
     fontFamily: 'Archivo, Arial, sans-serif',
   },
 
