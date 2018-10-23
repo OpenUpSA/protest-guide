@@ -18,6 +18,8 @@ const googleFonts = {
     fonts: [
       'roboto\:400,700',
       'oswald\:400,700',
+      'archivo\:400,700',
+      'archivo narrow'
     ]
   }
 };

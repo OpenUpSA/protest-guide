@@ -34,11 +34,13 @@ const styles = theme => ({
     flexGrow: 1,
     fontSize: '1.25rem',
     marginTop: '0.5rem',
+    fontFamily: 'Archivo, Arial, sans-serif',
   },
 
   cardText: {
     margin: '1.5rem 0 1rem',
     lineHeight: '1.5rem',
+    fontFamily: 'Archivo, Arial, sans-serif',
   },
 
   cardHeadingWrapper: {
@@ -49,6 +51,7 @@ const styles = theme => ({
   callToAction: {
     textTransform: 'uppercase',
     margin: '1.5rem 0 0.5rem',
+    fontFamily: 'Archivo Narrow, Arial, sans-serif',
   },
 });
 
