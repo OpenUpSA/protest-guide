@@ -9,18 +9,23 @@ const styles = theme => ({
 
   title: {
     display: 'flex',
-    alignItems: 'center',
+    alignItems: 'flex-end',
     color: '#F78E20',
     fontFamily: 'Oswald, Arial, sans-serif',
     textTransform: 'uppercase',
     letterSpacing: '0.05rem',
     fontSize: '19px',
+    marginBottom: '1.5rem',
+  },
+
+  titleMain: {
+    marginBottom: '-7px',
   },
 
   line: {
     background: '#DADADA',
     flexGrow: 1,
-    height: '2px',
+    height: '1px',
     marginLeft: '1rem',
   },
 
