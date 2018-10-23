@@ -64,7 +64,6 @@ const styles = theme => ({
     fontSize: '1rem',
     textAlign: 'center',
     color: '#656565',
-    fontStyle: 'italic',
   
     [theme.breakpoints.up('sm')]: {
       fontSize: '1.5rem',

@@ -15,7 +15,14 @@ const styles = {
   button: {
     width: '100%',
     display: 'flex',
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
+  },
+
+  buttonText: {
+    fontWeight: 700,
+    padding: '4px 13px',
+    fontSize: '1.1rem',
+    fontFamily: 'Oswald',
   }
 }
 
