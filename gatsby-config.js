@@ -16,7 +16,6 @@ const googleFonts = {
   resolve: `gatsby-plugin-google-fonts`,
   options: {
     fonts: [
-      'roboto\:400,700',
       'oswald\:400,700',
       'archivo\:400,700',
       'archivo narrow'
