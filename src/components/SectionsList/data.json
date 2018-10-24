@@ -24,13 +24,13 @@
     {
       "title": "Marshal’s Checklist",
       "type": "info",
-      "text": "A checklist of responsibilities and procedures that the marshal’s at the protest must see to during the protest.",
+      "text": "A checklist of responsibilities and procedures that the marshals at the protest must see to during the protest.",
       "link": "#"
     },
     {
       "title": "Prohibited Conduct",
       "type": "list",
-      "text": "A list of prohibited behavior and contraband items that could cause your protest to be shutdown.",
+      "text": "A list of prohibited behavior and contraband items that could cause your protest to be shut down.",
       "link": "#"
     },
     {
@@ -43,9 +43,9 @@
 
   "afterProtest": [
     {
-      "title": "What to do if you are arrested",
+      "title": "Your Rights If Arrested or Detained",
       "type": "list",
-      "text": "A list of resources and steps to take if you find yourself in custody following an altercation with law-enforcement.",
+      "text": "A list of rights that must be upheld by law enforcement if you are arrested or detained.",
       "link": "#"
     }
   ]

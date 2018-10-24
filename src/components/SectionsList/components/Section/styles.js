@@ -9,18 +9,23 @@ const styles = theme => ({
 
   title: {
     display: 'flex',
-    alignItems: 'center',
+    alignItems: 'flex-end',
     color: '#F78E20',
     fontFamily: 'Oswald, Arial, sans-serif',
     textTransform: 'uppercase',
     letterSpacing: '0.05rem',
     fontSize: '19px',
+    marginBottom: '1.5rem',
+  },
+
+  titleMain: {
+    marginBottom: '-7px',
   },
 
   line: {
     background: '#DADADA',
     flexGrow: 1,
-    height: '2px',
+    height: '1px',
     marginLeft: '1rem',
   },
 
@@ -33,12 +38,13 @@ const styles = theme => ({
     color: '#212121',
     flexGrow: 1,
     fontSize: '1.25rem',
-    marginTop: '0.5rem',
+    fontFamily: 'Archivo, Arial, sans-serif',
   },
 
   cardText: {
     margin: '1.5rem 0 1rem',
     lineHeight: '1.5rem',
+    fontFamily: 'Archivo, Arial, sans-serif',
   },
 
   cardHeadingWrapper: {
@@ -49,6 +55,7 @@ const styles = theme => ({
   callToAction: {
     textTransform: 'uppercase',
     margin: '1.5rem 0 0.5rem',
+    fontFamily: 'Archivo Narrow, Arial, sans-serif',
   },
 });
 

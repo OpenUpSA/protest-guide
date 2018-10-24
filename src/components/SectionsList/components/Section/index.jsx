@@ -24,6 +24,7 @@ const calcIcon = (type) => {
 const Section = ({ heading, cards, classes }) => {
   const {
     title,
+    titleMain,
     line,
     linkWrapper,
     cardHeading,
@@ -57,7 +58,7 @@ const Section = ({ heading, cards, classes }) => {
   return (
     <section>
       <div className={title}>
-        <h2>{heading}</h2>
+        <h2 className={titleMain}>{heading}</h2>
         <div className={line} />
       </div>
 

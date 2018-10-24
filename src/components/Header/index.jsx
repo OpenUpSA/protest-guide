@@ -7,13 +7,13 @@ import addStyles from './styles';
 
 
 const Header = ({ classes }) => {
-  const { root, content, button } = classes;
+  const { root, content, button, buttonText } = classes;
 
   return (
     <AppBar position="static" color="default" className={root}> 
       <Toolbar className={content}>
         <div className={button}>
-          <Button size="large" variant="contained" color="primary">Download the Guide</Button>
+          <Button size="large" variant="contained" color="primary" className={buttonText}>Download the Guide</Button>
         </div>
       </Toolbar>
     </AppBar>
