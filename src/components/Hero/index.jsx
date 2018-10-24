@@ -1,6 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
+import Header from '../Header';
 
 import addStyles from './styles';
 
@@ -10,6 +11,7 @@ const Hero = ({ classes }) => {
 
   const headlineMarkup = (
     <div className={root}>
+      <Header />
       <h1 className={textArea}>
         <Typography variant="headline" component="span" className={smallText}>
           Resources for

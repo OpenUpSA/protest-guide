@@ -4,16 +4,21 @@ import { withStyles } from '@material-ui/core';
 const styles = theme => ({
   root: {
     backgroundColor: '#D34727',
-    padding: '20px 20px 100px',
+    padding: '0px 0px 100px',
   
     [theme.breakpoints.up('sm')]: {
-      padding: '100px 20px 130px',
+      padding: '0px 0px 130px',
     }
   },
   
   textArea: {
     textTransform: 'uppercase',
     textAlign: 'center',
+    marginTop: 20,
+
+    [theme.breakpoints.up('sm')]: {
+      marginTop: 110,
+    }
   },
   
   smallText: {

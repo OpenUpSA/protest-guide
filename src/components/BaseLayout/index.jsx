@@ -2,7 +2,7 @@ import React from 'react'
 import { CssBaseline } from '@material-ui/core';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 
-import Header from '../Header';
+// import Header from '../Header';
 import addStyles from './styles';
 
 
@@ -31,7 +31,7 @@ const BaseLayout = ({ children, classes }) => {
     <MuiThemeProvider {...{ theme }}>
       <div className={preventOverflow}>
         <CssBaseline />
-        <Header />
+        {/*<Header />*/}
         {children}
       </div>
     </MuiThemeProvider>
