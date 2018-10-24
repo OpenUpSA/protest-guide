@@ -6,6 +6,7 @@ const styles = theme => ({
   root: {
     backgroundColor: '#D34727',
     padding: '0px 0px 100px',
+    position: 'relative',
   
     [theme.breakpoints.up('sm')]: {
       padding: '0px 0px 130px',
@@ -89,16 +90,21 @@ const styles = theme => ({
 
   imageHolder: {
     position: 'absolute',
-    bottom : 120,
+    bottom : '-3px',
     left: 0,
     right: 0,
     margin: '0 auto',
     maxWidth: 1000,
+    paddingLeft: 56,
   },
 
   image: {
-    maxHeight: 375,
-    maxWidth: 200,
+    display: 'none',
+    [theme.breakpoints.up('md')]: {
+      display: 'block',
+      maxHeight: 375,
+      maxWidth: 200,
+    }
   }
 })
 

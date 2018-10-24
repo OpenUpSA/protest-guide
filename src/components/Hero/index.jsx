@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Header from '../Header';
-import protestImage from '../../images/protest-illustration-placeholder.svg';
+import protestImage from '../../images/protest-illustration.svg';
 
 import addStyles from './styles';
 
