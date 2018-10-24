@@ -1,4 +1,5 @@
 import { withStyles } from '@material-ui/core';
+import protestImage from "../../images/icon.png";
 
 
 const styles = theme => ({
@@ -68,7 +69,6 @@ const styles = theme => ({
   quote: {
     fontSize: '1rem',
     textAlign: 'center',
-    // color: '#656565',
     maxWidth: 415,
     fontFamily: 'Oswald, Arial, sans-serif',
   
@@ -85,6 +85,20 @@ const styles = theme => ({
     color: '#FF9015',
     textAlign: 'center',
     fontFamily: 'Oswald, Arial, sans-serif',
+  },
+
+  imageHolder: {
+    position: 'absolute',
+    bottom : 120,
+    left: 0,
+    right: 0,
+    margin: '0 auto',
+    maxWidth: 1000,
+  },
+
+  image: {
+    maxHeight: 375,
+    maxWidth: 200,
   }
 })
 

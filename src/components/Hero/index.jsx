@@ -2,16 +2,30 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Header from '../Header';
+import protestImage from '../../images/icon.png';
 
 import addStyles from './styles';
 
 
 const Hero = ({ classes }) => {
-  const { root, textArea, smallText, largeText, cardWrapper, card, quote, attribution } = classes;
+  const {
+    root,
+    textArea,
+    smallText,
+    largeText,
+    cardWrapper,
+    card,
+    quote,
+    attribution,
+    imageHolder,
+    image } = classes;
 
   const headlineMarkup = (
     <div className={root}>
       <Header />
+      <div className={imageHolder}>
+        <img src={protestImage} className={image}></img>
+      </div>
       <h1 className={textArea}>
         <Typography variant="headline" component="span" className={smallText}>
           Resources for
