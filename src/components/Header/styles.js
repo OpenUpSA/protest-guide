@@ -23,6 +23,17 @@ const styles = {
     padding: '4px 13px',
     fontSize: '1.1rem',
     fontFamily: 'Oswald, Arial, sans-serif',
+  },
+
+  buttonLeft: {
+    justifyContent: 'flex-start',
+    '&:hover': {
+      backgroundColor: 'transparent',
+    },
+  },
+
+  buttonLogo: {
+    maxWidth: 192
   }
 }
 
