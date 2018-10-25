@@ -4,11 +4,11 @@ import { withStyles } from '@material-ui/core';
 const styles = theme => ({
   root: {
     backgroundColor: '#D34727',
-    padding: '0px 0px 80px',
+    padding: '0 0 80px',
     position: 'relative',
   
     [theme.breakpoints.up('sm')]: {
-      padding: '0px 0px 130px',
+      padding: '0 0 130px',
     }
   },
   
