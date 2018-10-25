@@ -4,12 +4,14 @@
       "title": "RGA Cheatsheet",
       "type": "list",
       "text": "A quick reference sheet that will help you understand how to comply with the Regulation of Gatherings Act (RGA)",
+      "short": "cheat",
       "link": "../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf"
     },
     {
       "title": "Section 3 Example",
       "type": "info",
       "text": "An example of one of the most crucial forms you will need to complete to organise and stage a legal protest.",
+      "short": "example",
       "link": "#"
     }
   ],
@@ -19,24 +21,28 @@
       "title": "Convener’s Checklist",
       "type": "checks",
       "text": "A checklist of responsibilities and procedures that the organiser of the protest must see to during the protest.",
+      "short": "checklistC",
       "link": "../../../../Protest_Toolkit_Checklist_Convener.pdf"
     },
     {
       "title": "Marshal’s Checklist",
       "type": "info",
       "text": "A checklist of responsibilities and procedures that the marshals at the protest must see to during the protest.",
+      "short": "checklistM",
       "link": "../../../../Protest_Toolkit_Checklist_Marshal.pdf"
     },
     {
       "title": "Prohibited Conduct",
       "type": "list",
       "text": "A list of prohibited behavior and contraband items that could cause your protest to be shut down.",
+      "short": "conduct",
       "link": "../../../../Protest_Toolkit_Conduct.pdf"
     },
     {
       "title": "SAPS National Instruction",
       "type": "info",
       "text": "A document containing standing orders for the South African Police Service during gatherings and demonstrations.",
+      "short": "SAPS",
       "link": "../../../../Protest_Toolkit_SAPS_National_Instruction.pdf"
     }
   ],
@@ -46,6 +52,7 @@
       "title": "Your Rights If Arrested or Detained",
       "type": "list",
       "text": "A list of rights that must be upheld by law enforcement if you are arrested or detained.",
+      "short": "rights",
       "link": "../../../../Protest_Toolkit_Rights_Arrest.pdf"
     }
   ]

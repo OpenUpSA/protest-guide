@@ -7,7 +7,14 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import ViewList from '@material-ui/icons/ViewList';
 import CheckBox from '@material-ui/icons/CheckBox';
 import Info from '@material-ui/icons/Info';
-import PDF from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
+import CheatSheet from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
+import Example from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
+import ChecklistC from '../../../../documents/Protest_Toolkit_Checklist_Convener.pdf';
+import ChecklistM from '../../../../documents/Protest_Toolkit_Checklist_Marshal.pdf';
+import Conduct from '../../../../documents/Protest_Toolkit_Conduct.pdf';
+import SAPS from '../../../../documents/Protest_Toolkit_SAPS_National_Instruction.pdf';
+import Rights from '../../../../documents/Protest_Toolkit_Rights_Arrest.pdf';
+
 
 import addStyles from './styles';
 
@@ -17,6 +24,19 @@ const calcIcon = (type) => {
     case 'list': return <ViewList color="primary" />;
     case 'info': return <Info color="primary" />;
     case 'checks': return <CheckBox color="primary" />;
+    default: return null;
+  }
+}
+
+const calcPDF = (short) => {
+  switch(short) {
+    case 'cheat' : return CheatSheet;
+    case 'example' : return Example;
+    case 'checklistC' : return ChecklistC;
+    case 'checklistM' : return ChecklistM;
+    case 'conduct' : return Conduct;
+    case 'SAPS' : return SAPS;
+    case 'rights' : return Rights;
     default: return null;
   }
 }
@@ -35,8 +55,8 @@ const Section = ({ heading, cards, classes }) => {
   } = classes;
   
 
-  const CardWrapper = ({ type, text, link, title }) => (
-    <a href={PDF} className={linkWrapper} target="_blank" rel="noopener noreferrer">
+  const CardWrapper = ({ type, text, link, title, short }) => (
+    <a href={calcPDF(short)} className={linkWrapper} target="_blank" rel="noopener noreferrer">
       <Card>
         <CardActionArea>
           <CardContent>
@@ -64,9 +84,9 @@ const Section = ({ heading, cards, classes }) => {
       </div>
 
       <Grid container spacing={24}>
-        {cards.map(({ title, type, text, link }) => (
+        {cards.map(({ title, type, text, link, short }) => (
           <Grid item xs={12} sm={6} md={4} key={title}>
-            <CardWrapper {...{ title, type, text, link }} />
+            <CardWrapper {...{ title, type, text, link, short }} />
           </Grid>
         ))}
       </Grid>
