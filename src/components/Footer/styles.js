@@ -98,7 +98,7 @@ const styles = theme => ({
     height: 30,
   },
 
-  footer: {
+  footerWrapper: {
     marginTop: '4rem',
 
     [theme.breakpoints.up('sm')]: {

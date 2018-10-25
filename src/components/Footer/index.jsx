@@ -18,7 +18,7 @@ const Footer = ({ classes }) => {
     textWhite,
     divider,
     callIcon,
-    footer,
+    footerWrapper,
     helpLineSpan
   } = classes;
 
@@ -56,7 +56,7 @@ const Footer = ({ classes }) => {
   );
 
   return (
-    <footer className={footer}>
+    <footer className={footerWrapper}>
       {helplineMarkup}
       {linksMarkup}
     </footer>
