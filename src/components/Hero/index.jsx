@@ -5,6 +5,7 @@ import Header from '../Header';
 import protestImage from '../../images/protest-illustration.svg';
 
 import addStyles from './styles';
+import Button from "@material-ui/core/Button/Button";
 
 
 const Hero = ({ classes }) => {
@@ -18,7 +19,10 @@ const Hero = ({ classes }) => {
     quote,
     attribution,
     imageHolder,
-    image } = classes;
+    image,
+    button,
+    buttonText,
+  } = classes;
 
   const headlineMarkup = (
     <div className={root}>
@@ -37,6 +41,9 @@ const Hero = ({ classes }) => {
           a protest
         </Typography>
       </h1>
+      <div className={button}>
+        <Button size="large" variant="contained" color="primary" className={buttonText}>Download the Guide</Button>
+      </div>
     </div>
   )
   

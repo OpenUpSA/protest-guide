@@ -7,6 +7,12 @@ const styles = theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    flexDirection: 'column',
+    padding: '15px 0',
+
+    [theme.breakpoints.up('sm')]: {
+      flexDirection: 'row',
+    }
   },
 
   helplineText: {
@@ -17,6 +23,7 @@ const styles = theme => ({
     margin: '0 1rem',
     fontSize: '28.5px',
     marginLeft: 0,
+    padding: '0 16px',
   },
 
   helpLineTitle: {
@@ -26,7 +33,7 @@ const styles = theme => ({
     textTransform: 'uppercase',
     margin: '0 1rem',
     fontSize: '28.5px',
-    display: 'none',
+    textAlign: 'center',
 
     [theme.breakpoints.up('sm')]: {
       display: 'block',
@@ -35,7 +42,7 @@ const styles = theme => ({
 
   links: {
     backgroundColor: '#FF9015',
-    padding: '20px',
+    padding: '30px',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -43,6 +50,7 @@ const styles = theme => ({
 
     [theme.breakpoints.up('sm')]: {
       flexDirection: 'row',
+      padding: '20px',
     }
   },
 
@@ -62,7 +70,12 @@ const styles = theme => ({
     color: 'white',
     textTransform: 'lowercase',
     fontFamily: 'Archivo, Arial, sans-serif',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+
+    [theme.breakpoints.down('sm')]: {
+      padding: 0,
+      minHeight: '0.875rem',
+    },
   },
 
   divider: {
@@ -84,6 +97,19 @@ const styles = theme => ({
     width: 30,
     height: 30,
   },
+
+  footer: {
+    marginTop: '4rem',
+
+    [theme.breakpoints.up('sm')]: {
+      marginTop: '7rem',
+    }
+  },
+
+  helpLineSpan: {
+    display: 'flex',
+    alignItems: 'center'
+  }
 
 })
 

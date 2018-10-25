@@ -17,19 +17,24 @@ const Footer = ({ classes }) => {
     linkUnderline,
     textWhite,
     divider,
-    callIcon
+    callIcon,
+    footer,
+    helpLineSpan
   } = classes;
 
 
   const helplineMarkup = (
     <div className={helpline}>
-      <Typography component="span" className={helpLineTitle}>Right2Protest helpline</Typography>
-      
-      <CallIcon color="primary" fontSize="large" className={callIcon}/>
-  
-      <a href="tel:+27117178645" className={helplineWrapper}>
-        <Button component="span" className={helplineText}>011 717 8645</Button>
-      </a>
+      <div className={helpLineSpan}>
+        <Typography component="span" className={helpLineTitle}>Right2Protest helpline</Typography>
+      </div>
+      <div className={helpLineSpan}>
+        <CallIcon color="primary" fontSize="large" className={callIcon}/>
+
+        <a href="tel:+27117178645" className={helplineWrapper}>
+          <Button component="span" className={helplineText}>011 717 8645</Button>
+        </a>
+      </div>
     </div>
   );
   
@@ -51,7 +56,7 @@ const Footer = ({ classes }) => {
   );
 
   return (
-    <footer style={{ marginTop: '7rem' }}>
+    <footer className={footer}>
       {helplineMarkup}
       {linksMarkup}
     </footer>

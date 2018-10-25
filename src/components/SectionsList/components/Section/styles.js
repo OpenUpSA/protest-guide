@@ -16,17 +16,28 @@ const styles = theme => ({
     letterSpacing: '0.05rem',
     fontSize: '19px',
     marginBottom: '1.5rem',
+
+    [theme.breakpoints.down('sm')]: {
+      justifyContent: 'center'
+    },
   },
 
   titleMain: {
     marginBottom: '-7px',
+    marginTop: 0,
+    textAlign: 'center',
   },
 
   line: {
-    background: '#DADADA',
-    flexGrow: 1,
-    height: '1px',
-    marginLeft: '1rem',
+    display: 'none',
+
+    [theme.breakpoints.up('sm')]: {
+      display: 'block',
+      background: '#DADADA',
+      flexGrow: 1,
+      height: '1px',
+      marginLeft: '1rem',
+    }
   },
 
   linkWrapper: {
