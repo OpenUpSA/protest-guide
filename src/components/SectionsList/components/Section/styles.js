@@ -56,6 +56,7 @@ const styles = theme => ({
     textTransform: 'uppercase',
     margin: '1.5rem 0 0.5rem',
     fontFamily: 'Archivo Narrow, Arial, sans-serif',
+    color: '#F78E20',
   },
 });
 

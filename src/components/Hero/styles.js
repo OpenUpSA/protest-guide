@@ -1,5 +1,4 @@
 import { withStyles } from '@material-ui/core';
-import protestImage from "../../images/icon.png";
 
 
 const styles = theme => ({
@@ -28,7 +27,7 @@ const styles = theme => ({
     fontWeight: 'bold',
     color: '#FF9015',
     letterSpacing: '0.05rem',
-    fontSize: '30px',
+    fontSize: '24px',
     lineHeight: 0.8,
     display: 'inline-block',
   },
@@ -46,7 +45,7 @@ const styles = theme => ({
       maxWidth: '500px',
       color: 'white',
       lineHeight: 0.95,
-      fontSize: '5rem',
+      fontSize: '4.2rem',
       letterSpacing: '0.025rem',
     },
   },

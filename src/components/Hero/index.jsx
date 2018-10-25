@@ -24,7 +24,7 @@ const Hero = ({ classes }) => {
     <div className={root}>
       <Header />
       <div className={imageHolder}>
-        <img src={protestImage} className={image}></img>
+        <img src={protestImage} className={image} alt=""></img>
       </div>
       <h1 className={textArea}>
         <Typography variant="headline" component="span" className={smallText}>

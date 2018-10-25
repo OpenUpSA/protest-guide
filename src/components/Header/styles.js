@@ -27,6 +27,7 @@ const styles = {
 
   buttonLeft: {
     justifyContent: 'flex-start',
+    padding: 0,
     '&:hover': {
       backgroundColor: 'transparent',
     },

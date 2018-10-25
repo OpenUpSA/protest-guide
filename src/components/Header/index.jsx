@@ -14,8 +14,8 @@ const Header = ({ classes }) => {
     <AppBar position="static" color="default" className={root}> 
       <Toolbar className={content}>
         <div>
-          <a href='https://www.r2p.org.za/' target='_blank'>
-            <Button className={buttonLeft}><img src={logo} className={buttonLogo}></img></Button>
+          <a href='https://www.r2p.org.za/' rel="noopener noreferrer" target='_blank'>
+            <Button className={buttonLeft}><img src={logo} className={buttonLogo} alt="right2protest Logo"></img></Button>
           </a>
         </div>
         <div className={button}>
