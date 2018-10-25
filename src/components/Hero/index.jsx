@@ -1,15 +1,35 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
+import Header from '../Header';
+import protestImage from '../../images/protest-illustration.svg';
 
 import addStyles from './styles';
+import Button from "@material-ui/core/Button/Button";
 
 
 const Hero = ({ classes }) => {
-  const { root, textArea, smallText, largeText, cardWrapper, card, quote, attribution } = classes;
+  const {
+    root,
+    textArea,
+    smallText,
+    largeText,
+    cardWrapper,
+    card,
+    quote,
+    attribution,
+    imageHolder,
+    image,
+    button,
+    buttonText,
+  } = classes;
 
   const headlineMarkup = (
     <div className={root}>
+      <Header />
+      <div className={imageHolder}>
+        <img src={protestImage} className={image} alt=""></img>
+      </div>
       <h1 className={textArea}>
         <Typography variant="headline" component="span" className={smallText}>
           Resources for
@@ -21,6 +41,9 @@ const Hero = ({ classes }) => {
           a protest
         </Typography>
       </h1>
+      <div className={button}>
+        <Button size="large" variant="contained" color="primary" className={buttonText}>Download the Guide</Button>
+      </div>
     </div>
   )
   

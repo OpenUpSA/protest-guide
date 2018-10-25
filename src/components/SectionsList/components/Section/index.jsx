@@ -7,6 +7,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import ViewList from '@material-ui/icons/ViewList';
 import CheckBox from '@material-ui/icons/CheckBox';
 import Info from '@material-ui/icons/Info';
+import PDF from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
 
 import addStyles from './styles';
 
@@ -35,7 +36,7 @@ const Section = ({ heading, cards, classes }) => {
   
 
   const CardWrapper = ({ type, text, link, title }) => (
-    <a href={link} className={linkWrapper}>
+    <a href={PDF} className={linkWrapper} target="_blank" rel="noopener noreferrer">
       <Card>
         <CardActionArea>
           <CardContent>

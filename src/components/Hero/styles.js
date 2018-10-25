@@ -4,16 +4,22 @@ import { withStyles } from '@material-ui/core';
 const styles = theme => ({
   root: {
     backgroundColor: '#D34727',
-    padding: '20px 20px 100px',
+    padding: '0 0 80px',
+    position: 'relative',
   
     [theme.breakpoints.up('sm')]: {
-      padding: '100px 20px 130px',
+      padding: '0 0 130px',
     }
   },
   
   textArea: {
     textTransform: 'uppercase',
     textAlign: 'center',
+    marginTop: 40,
+
+    [theme.breakpoints.up('sm')]: {
+      marginTop: 110,
+    }
   },
   
   smallText: {
@@ -21,7 +27,7 @@ const styles = theme => ({
     fontWeight: 'bold',
     color: '#FF9015',
     letterSpacing: '0.05rem',
-    fontSize: '30px',
+    fontSize: '24px',
     lineHeight: 0.8,
     display: 'inline-block',
   },
@@ -29,17 +35,15 @@ const styles = theme => ({
   largeText: {
     fontFamily: 'Oswald, Arial, sans-serif',
     fontWeight: 'bold',
-    color: '#FF9015',
+    color: 'white',
     letterSpacing: '0.05rem',
-    fontSize: '30px',
-    lineHeight: 1.5,
+    fontSize: '3rem',
+    lineHeight: 0.95,
     margin: '0 auto',
   
     [theme.breakpoints.up('sm')]: {
       maxWidth: '500px',
-      color: 'white',
-      lineHeight: 0.95,
-      fontSize: '5rem',
+      fontSize: '4.2rem',
       letterSpacing: '0.025rem',
     },
   },
@@ -50,20 +54,21 @@ const styles = theme => ({
   },
 
   card: {
-    margin: '0 2rem',
+    margin: '0 1.4rem',
     position: 'relative',
-    bottom: '80px',
+    bottom: '35px',
     padding: '20px',
   
     [theme.breakpoints.up('sm')]: {
+      margin: '0 2rem',
       padding: '30px 60px',
+      bottom: '80px',
     }
   },
 
   quote: {
     fontSize: '1rem',
     textAlign: 'center',
-    // color: '#656565',
     maxWidth: 415,
     fontFamily: 'Oswald, Arial, sans-serif',
   
@@ -80,7 +85,46 @@ const styles = theme => ({
     color: '#FF9015',
     textAlign: 'center',
     fontFamily: 'Oswald, Arial, sans-serif',
-  }
+  },
+
+  imageHolder: {
+    position: 'absolute',
+    bottom : '-3px',
+    left: 0,
+    right: 0,
+    margin: '0 auto',
+    maxWidth: 1000,
+    paddingLeft: 56,
+  },
+
+  image: {
+    display: 'none',
+
+    [theme.breakpoints.up('md')]: {
+      display: 'block',
+      maxHeight: 375,
+      maxWidth: 200,
+    }
+  },
+
+  button: {
+    width: '100%',
+    height: 46,
+    display: 'flex',
+    justifyContent: 'center',
+
+    [theme.breakpoints.up('sm')]: {
+      display: 'none',
+    }
+  },
+
+  buttonText: {
+    fontWeight: 700,
+    padding: '4px 13px',
+    fontSize: '1.1rem',
+    fontFamily: 'Oswald, Arial, sans-serif',
+    boxShadow: 'none',
+  },
 })
 
 

@@ -1,17 +1,21 @@
 import { withStyles } from '@material-ui/core';
 
 
-const styles = {
+const styles = theme => ({
   root: {
-    margin: '0 auto', 
-    maxWidth: '1000px', 
+    margin: '0 auto',
+    maxWidth: '1000px',
     padding: '0 20px',
   },
 
   sectionWrapper: {
-    marginBottom: '3rem',
+    marginBottom: '1.5rem',
+
+    [theme.breakpoints.up('sm')]:{
+      marginBottom: '3rem',
+    }
   },
-}
+})
 
 
 export default withStyles(styles);
