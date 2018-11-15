@@ -18,6 +18,7 @@ import Conduct from '../../../../documents/Protest_Toolkit_Conduct.pdf';
 import SAPS from '../../../../documents/Protest_Toolkit_SAPS_National_Instruction.pdf';
 import Force from '../../../../documents/Protest_Toolkit_Using_Force.pdf';
 import Rights from '../../../../documents/Protest_Toolkit_Rights_Arrest.pdf';
+import Arrested from '../../../../documents/Protest_Toolkit_Being_Arrested.pdf';
 
 
 import addStyles from './styles';
@@ -45,6 +46,7 @@ const calcPDF = (short) => {
     case 'SAPS' : return SAPS;
     case 'force' : return Force;
     case 'rights' : return Rights;
+    case 'arrested' : return Arrested;
     default: return null;
   }
 }
