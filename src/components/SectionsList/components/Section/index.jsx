@@ -9,6 +9,7 @@ import CheckBox from '@material-ui/icons/CheckBox';
 import Info from '@material-ui/icons/Info';
 import CheatSheet from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
 import Section3 from '../../../../documents/Protest_Toolkit_Section-3-Checklist.pdf';
+import Timeline from '../../../../documents/Protest_Toolkit_Timeline.pdf';
 import Example from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
 import ChecklistC from '../../../../documents/Protest_Toolkit_Checklist_Convener.pdf';
 import ChecklistM from '../../../../documents/Protest_Toolkit_Checklist_Marshal.pdf';
@@ -33,6 +34,7 @@ const calcPDF = (short) => {
   switch(short) {
     case 'cheat' : return CheatSheet;
     case 'section-3' : return Section3;
+    case 'timeline' : return Timeline;
     case 'example' : return Example;
     case 'checklistC' : return ChecklistC;
     case 'checklistM' : return ChecklistM;
