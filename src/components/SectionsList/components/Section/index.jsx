@@ -20,6 +20,7 @@ import Force from '../../../../documents/Protest_Toolkit_Using_Force.pdf';
 import Rights from '../../../../documents/Protest_Toolkit_Rights_Arrest.pdf';
 import Arrested from '../../../../documents/Protest_Toolkit_Being_Arrested.pdf';
 import Reporting from '../../../../documents/Protest_Toolkit_Police_Brutality.pdf';
+import Badges from '../../../../documents/Protest_Toolkit_Police_Badges.pdf';
 
 
 import addStyles from './styles';
@@ -49,6 +50,7 @@ const calcPDF = (short) => {
     case 'rights' : return Rights;
     case 'arrested' : return Arrested;
     case 'reporting' : return Reporting;
+    case 'badges' : return Badges;
     default: return null;
   }
 }
