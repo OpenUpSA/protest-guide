@@ -12,7 +12,7 @@ import Section3 from '../../../../documents/Protest_Toolkit_Section-3-Checklist.
 import Timeline from '../../../../documents/Protest_Toolkit_Timeline.pdf';
 import Example from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
 import ChecklistCBefore from '../../../../documents/Protest_Toolkit_Convener_Checklist_Before.pdf';
-import ChecklistC from '../../../../documents/Protest_Toolkit_Checklist_Convener.pdf';
+import ChecklistC from '../../../../documents/Protest_Toolkit_Convener_Checklist_During.pdf';
 import ChecklistM from '../../../../documents/Protest_Toolkit_Checklist_Marshal.pdf';
 import Conduct from '../../../../documents/Protest_Toolkit_Conduct.pdf';
 import SAPS from '../../../../documents/Protest_Toolkit_SAPS_National_Instruction.pdf';
