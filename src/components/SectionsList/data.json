@@ -15,6 +15,13 @@
       "link": "../../../../documents/Protest_Toolkit_Section-3-Checklist.pdf"
     },
     {
+      "title": "Convener’s Checklist",
+      "type": "checks",
+      "text": "A checklist of responsibilities and procedures that the convener of the protest must see to when organising the protest.",
+      "short": "checklistCBefore",
+      "link": "../../../../Protest_Toolkit_Convener_Checklist_Before.pdf"
+    },
+    {
       "title": "Notification Timeline",
       "type": "info",
       "text": "A helpful guide for making sure all documentation, negotiation and planning is completed on time, leading up to the day of the protest.",
@@ -27,7 +34,7 @@
     {
       "title": "Convener’s Checklist",
       "type": "checks",
-      "text": "A checklist of responsibilities and procedures that the organiser of the protest must see to during the protest.",
+      "text": "A checklist of responsibilities and procedures that the convener of the protest must see to when organising the protest.",
       "short": "checklistC",
       "link": "../../../../Protest_Toolkit_Checklist_Convener.pdf"
     },

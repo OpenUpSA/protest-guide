@@ -11,6 +11,7 @@ import CheatSheet from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf
 import Section3 from '../../../../documents/Protest_Toolkit_Section-3-Checklist.pdf';
 import Timeline from '../../../../documents/Protest_Toolkit_Timeline.pdf';
 import Example from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
+import ChecklistCBefore from '../../../../documents/Protest_Toolkit_Convener_Checklist_Before.pdf';
 import ChecklistC from '../../../../documents/Protest_Toolkit_Checklist_Convener.pdf';
 import ChecklistM from '../../../../documents/Protest_Toolkit_Checklist_Marshal.pdf';
 import Conduct from '../../../../documents/Protest_Toolkit_Conduct.pdf';
@@ -36,6 +37,7 @@ const calcPDF = (short) => {
     case 'section-3' : return Section3;
     case 'timeline' : return Timeline;
     case 'example' : return Example;
+    case 'checklistCBefore' : return ChecklistCBefore;
     case 'checklistC' : return ChecklistC;
     case 'checklistM' : return ChecklistM;
     case 'conduct' : return Conduct;
