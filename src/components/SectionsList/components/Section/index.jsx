@@ -8,12 +8,19 @@ import ViewList from '@material-ui/icons/ViewList';
 import CheckBox from '@material-ui/icons/CheckBox';
 import Info from '@material-ui/icons/Info';
 import CheatSheet from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
+import Section3 from '../../../../documents/Protest_Toolkit_Section-3-Checklist.pdf';
+import Timeline from '../../../../documents/Protest_Toolkit_Timeline.pdf';
 import Example from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
-import ChecklistC from '../../../../documents/Protest_Toolkit_Checklist_Convener.pdf';
-import ChecklistM from '../../../../documents/Protest_Toolkit_Checklist_Marshal.pdf';
+import ChecklistCBefore from '../../../../documents/Protest_Toolkit_Convener_Checklist_Before.pdf';
+import ChecklistC from '../../../../documents/Protest_Toolkit_Convener_Checklist_During.pdf';
+import ChecklistM from '../../../../documents/Protest_Toolkit_Marshal_Checklist_During.pdf';
 import Conduct from '../../../../documents/Protest_Toolkit_Conduct.pdf';
 import SAPS from '../../../../documents/Protest_Toolkit_SAPS_National_Instruction.pdf';
+import Force from '../../../../documents/Protest_Toolkit_Using_Force.pdf';
 import Rights from '../../../../documents/Protest_Toolkit_Rights_Arrest.pdf';
+import Arrested from '../../../../documents/Protest_Toolkit_Being_Arrested.pdf';
+import Reporting from '../../../../documents/Protest_Toolkit_Police_Brutality.pdf';
+import Badges from '../../../../documents/Protest_Toolkit_Police_Badges.pdf';
 
 
 import addStyles from './styles';
@@ -31,12 +38,19 @@ const calcIcon = (type) => {
 const calcPDF = (short) => {
   switch(short) {
     case 'cheat' : return CheatSheet;
+    case 'section-3' : return Section3;
+    case 'timeline' : return Timeline;
     case 'example' : return Example;
+    case 'checklistCBefore' : return ChecklistCBefore;
     case 'checklistC' : return ChecklistC;
     case 'checklistM' : return ChecklistM;
     case 'conduct' : return Conduct;
     case 'SAPS' : return SAPS;
+    case 'force' : return Force;
     case 'rights' : return Rights;
+    case 'arrested' : return Arrested;
+    case 'reporting' : return Reporting;
+    case 'badges' : return Badges;
     default: return null;
   }
 }

@@ -2,10 +2,38 @@
   "beforeProtest": [
     {
       "title": "RGA Cheatsheet",
-      "type": "list",
+      "type": "info",
       "text": "A quick reference sheet that will help you understand how to comply with the Regulation of Gatherings Act (RGA)",
       "short": "cheat",
       "link": "../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf"
+    },
+    {
+      "title": "Planning your route",
+      "type": " ",
+      "text": "TBC",
+      "short": "route",
+      "link": "../../../../documents/Protest_Toolkit_TBC.pdf"
+    },
+    {
+      "title": "Section 3 Checklist",
+      "type": "checks",
+      "text": "A handy checklist for gathering the information you will need to complete your section 3 notice.",
+      "short": "section-3",
+      "link": "../../../../documents/Protest_Toolkit_Section-3-Checklist.pdf"
+    },
+    {
+      "title": "Convener’s Checklist",
+      "type": "checks",
+      "text": "A checklist of responsibilities and procedures that the convener of the protest must see to when organising the protest.",
+      "short": "checklistCBefore",
+      "link": "../../../../Protest_Toolkit_Convener_Checklist_Before.pdf"
+    },
+    {
+      "title": "Notification Timeline",
+      "type": "checks",
+      "text": "A helpful guide for making sure all documentation, negotiation and planning is completed on time, leading up to the day of the protest.",
+      "short": "timeline",
+      "link": "../../../../documents/Protest_Toolkit_Timeline.pdf"
     }
   ],
 
@@ -13,23 +41,16 @@
     {
       "title": "Convener’s Checklist",
       "type": "checks",
-      "text": "A checklist of responsibilities and procedures that the organiser of the protest must see to during the protest.",
+      "text": "A checklist of responsibilities and procedures that the convener of the protest must see to during the protest.",
       "short": "checklistC",
-      "link": "../../../../Protest_Toolkit_Checklist_Convener.pdf"
+      "link": "../../../../Protest_Toolkit_Convener_Checklist_During.pdf"
     },
     {
       "title": "Marshal’s Checklist",
-      "type": "info",
+      "type": "checks",
       "text": "A checklist of responsibilities and procedures that the marshals at the protest must see to during the protest.",
       "short": "checklistM",
-      "link": "../../../../Protest_Toolkit_Checklist_Marshal.pdf"
-    },
-    {
-      "title": "Prohibited Conduct",
-      "type": "list",
-      "text": "A list of prohibited behavior and contraband items that could cause your protest to be shut down.",
-      "short": "conduct",
-      "link": "../../../../Protest_Toolkit_Conduct.pdf"
+      "link": "../../../../Protest_Toolkit_Marshal_Checklist_During.pdf"
     },
     {
       "title": "SAPS National Instruction",
@@ -37,13 +58,48 @@
       "text": "A document containing standing orders for the South African Police Service during gatherings and demonstrations.",
       "short": "SAPS",
       "link": "../../../../Protest_Toolkit_SAPS_National_Instruction.pdf"
+    },
+    {
+      "title": "Escalation of Force",
+      "type": "info",
+      "text": "A summary of the guidelines the police must follow before using force at a protest, as per the SAPS National Instruction.",
+      "short": "force",
+      "link": "../../../../Protest_Toolkit_Using_Force.pdf"
+    },
+    {
+      "title": "Identifying the Police",
+      "type": "info",
+      "text": "What to look for when identifying public order police (POP) officers at a protest.",
+      "short": "badges",
+      "link": "../../../../Protest_Toolkit_Police_Badges.pdf"
+    },
+    {
+      "title": "Prohibited Conduct",
+      "type": "info",
+      "text": "A list of prohibited behavior and contraband items that could cause your protest to be shut down.",
+      "short": "conduct",
+      "link": "../../../../Protest_Toolkit_Conduct.pdf"
     }
   ],
 
   "afterProtest": [
     {
+      "title": "Reporting Police Brutality",
+      "type": "info",
+      "text": "A guide to the steps you should take when documenting, reporting and pressing charges against an officer.",
+      "short": "reporting",
+      "link": "../../../../Protest_Toolkit_Police_Brutality.pdf"
+    },
+    {
+      "title": "Being arrested",
+      "type": "info",
+      "text": "A guide to help you understand what constitutes a lawful arrest and what actions to take when in custody.",
+      "short": "arrested",
+      "link": "../../../../Protest_Toolkit_Being_Arrested.pdf"
+    },
+    {
       "title": "Your Rights If Arrested or Detained",
-      "type": "list",
+      "type": "info",
       "text": "A list of rights that must be upheld by law enforcement if you are arrested or detained.",
       "short": "rights",
       "link": "../../../../Protest_Toolkit_Rights_Arrest.pdf"
