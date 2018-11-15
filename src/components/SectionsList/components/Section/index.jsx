@@ -13,7 +13,7 @@ import Timeline from '../../../../documents/Protest_Toolkit_Timeline.pdf';
 import Example from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
 import ChecklistCBefore from '../../../../documents/Protest_Toolkit_Convener_Checklist_Before.pdf';
 import ChecklistC from '../../../../documents/Protest_Toolkit_Convener_Checklist_During.pdf';
-import ChecklistM from '../../../../documents/Protest_Toolkit_Checklist_Marshal.pdf';
+import ChecklistM from '../../../../documents/Protest_Toolkit_Marshal_Checklist_During.pdf';
 import Conduct from '../../../../documents/Protest_Toolkit_Conduct.pdf';
 import SAPS from '../../../../documents/Protest_Toolkit_SAPS_National_Instruction.pdf';
 import Force from '../../../../documents/Protest_Toolkit_Using_Force.pdf';
