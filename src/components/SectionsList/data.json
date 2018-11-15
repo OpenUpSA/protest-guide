@@ -40,7 +40,7 @@
     },
     {
       "title": "Marshal’s Checklist",
-      "type": "info",
+      "type": "checks",
       "text": "A checklist of responsibilities and procedures that the marshals at the protest must see to during the protest.",
       "short": "checklistM",
       "link": "../../../../Protest_Toolkit_Checklist_Marshal.pdf"
@@ -58,6 +58,13 @@
       "text": "A document containing standing orders for the South African Police Service during gatherings and demonstrations.",
       "short": "SAPS",
       "link": "../../../../Protest_Toolkit_SAPS_National_Instruction.pdf"
+    },
+    {
+      "title": "Escalation of Force",
+      "type": "info",
+      "text": "A summary of the guidelines the police must follow before using force at a protest, as per the SAPS National Instruction.",
+      "short": "force",
+      "link": "../../../../Protest_Toolkit_Using_Force.pdf"
     }
   ],
 
