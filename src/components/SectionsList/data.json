@@ -71,17 +71,24 @@
   "afterProtest": [
     {
       "title": "Your Rights If Arrested or Detained",
-      "type": "list",
+      "type": "info",
       "text": "A list of rights that must be upheld by law enforcement if you are arrested or detained.",
       "short": "rights",
       "link": "../../../../Protest_Toolkit_Rights_Arrest.pdf"
     },
     {
       "title": "Being arrested",
-      "type": "list",
+      "type": "info",
       "text": "A guide to help you understand what constitutes a lawful arrest and what actions to take when in custody.",
       "short": "arrested",
-      "link": "../../../../Protest_Toolkit_Being_Arrested"
+      "link": "../../../../Protest_Toolkit_Being_Arrested.pdf"
+    },
+    {
+      "title": "Reporting Police Brutality",
+      "type": "info",
+      "text": "A guide to the steps you should take when documenting, reporting and pressing charges against an officer.",
+      "short": "reporting",
+      "link": "../../../../Protest_Toolkit_Police_Brutality.pdf"
     }
   ]
 }
