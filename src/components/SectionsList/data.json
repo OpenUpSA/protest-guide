@@ -2,14 +2,14 @@
   "beforeProtest": [
     {
       "title": "RGA Cheatsheet",
-      "type": "list",
+      "type": "info",
       "text": "A quick reference sheet that will help you understand how to comply with the Regulation of Gatherings Act (RGA)",
       "short": "cheat",
       "link": "../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf"
     },
     {
       "title": "Planning your route",
-      "type": "list",
+      "type": " ",
       "text": "TBC",
       "short": "route",
       "link": "../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf"
@@ -30,7 +30,7 @@
     },
     {
       "title": "Notification Timeline",
-      "type": "info",
+      "type": "checks",
       "text": "A helpful guide for making sure all documentation, negotiation and planning is completed on time, leading up to the day of the protest.",
       "short": "timeline",
       "link": "../../../../documents/Protest_Toolkit_Timeline.pdf"
@@ -75,7 +75,7 @@
     },
     {
       "title": "Prohibited Conduct",
-      "type": "list",
+      "type": "info",
       "text": "A list of prohibited behavior and contraband items that could cause your protest to be shut down.",
       "short": "conduct",
       "link": "../../../../Protest_Toolkit_Conduct.pdf"
