@@ -3,6 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import logo from '../../images/r2p-logo.jpg';
+import SpeedDials from '../SpeedDial';
 
 import addStyles from './styles';
 
@@ -19,6 +20,7 @@ const Header = ({ classes }) => {
           </a>
         </div>
       </Toolbar>
+      <SpeedDials />
     </AppBar>
   )
 };
