@@ -8,18 +8,15 @@ import addStyles from './styles';
 
 
 const Header = ({ classes }) => {
-  const { root, content, button, buttonText, buttonLogo, buttonLeft } = classes;
+  const { root, content, button, buttonLogo, } = classes;
 
   return (
     <AppBar position="static" color="default" className={root}> 
       <Toolbar className={content}>
         <div>
           <a href='https://www.r2p.org.za/' rel="noopener noreferrer" target='_blank'>
-            <Button className={buttonLeft}><img src={logo} className={buttonLogo} alt="right2protest Logo"></img></Button>
+            <Button className={button}><img src={logo} className={buttonLogo} alt="right2protest Logo"></img></Button>
           </a>
-        </div>
-        <div className={button}>
-          <Button size="large" variant="contained" color="primary" className={buttonText}>Download the Guide</Button>
         </div>
       </Toolbar>
     </AppBar>
