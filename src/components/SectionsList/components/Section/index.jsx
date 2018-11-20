@@ -15,7 +15,7 @@ import ChecklistCBefore from '../../../../documents/convener-checklist-before.pd
 import ChecklistC from '../../../../documents/convener-checklist-during.pdf';
 import ChecklistM from '../../../../documents/marshal-checklist-during.pdf';
 import Conduct from '../../../../documents/conduct.pdf';
-import SAPS from '../../../../documents/Protest_Toolkit_SAPS_National_Instruction.pdf';
+import SAPS from '../../../../documents/national-instruction.pdf';
 import Force from '../../../../documents/using-force.pdf';
 import Rights from '../../../../documents/rights-arrest.pdf';
 import Arrested from '../../../../documents/being-arrested.pdf';
