@@ -122,8 +122,11 @@ const styles = theme => ({
     fontFamily: 'Oswald, Arial, sans-serif',
     boxShadow: 'none',
   },
-})
 
+  buttonLink: {
+    textDecoration: 'none',
+  },
+});
 
 
 export default withStyles(styles);
