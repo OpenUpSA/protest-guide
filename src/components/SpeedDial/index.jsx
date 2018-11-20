@@ -12,9 +12,21 @@ import { mdiFacebook, mdiTwitter, mdiWhatsapp } from '@mdi/js'
 import addStyles from './styles';
 
 const actions = [
-  { icon: <Icon path={mdiFacebook} size={1} color='#D34727'/>, name: 'Facebook' },
-  { icon: <Icon path={mdiTwitter} size={1} color='#D34727'/>, name: 'Twitter' },
-  { icon: <Icon path={mdiWhatsapp} size={1} color='#D34727'/>, name: 'Whatsapp' },
+  {
+    icon: <Icon path={mdiFacebook} size={1} color='#D34727'/>,
+    name: 'Facebook',
+    href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A//protestguide.netlify.com/'
+  },
+  {
+    icon: <Icon path={mdiTwitter} size={1} color='#D34727'/>,
+    name: 'Twitter',
+    href: 'https://twitter.com/home?status=https%3A//protestguide.netlify.com/'
+  },
+  {
+    icon: <Icon path={mdiWhatsapp} size={1} color='#D34727'/>,
+    name: 'Whatsapp',
+    href: 'whatsapp://send?text=https://protestguide.netlify.com'
+  },
 ];
 
 class SpeedDials extends React.Component {
@@ -24,7 +36,8 @@ class SpeedDials extends React.Component {
     hidden: false,
   };
 
-  handleClick = () => {
+  handleClick = (location) => {
+    window.open(location);
     this.setState(state => ({
       open: !state.open,
     }));
@@ -65,12 +78,12 @@ class SpeedDials extends React.Component {
             direction={direction}
           >
             {actions.map(action => (
-              <SpeedDialAction
-                key={action.name}
-                icon={action.icon}
-                tooltipTitle={action.name}
-                onClick={this.handleClick}
-              />
+                <SpeedDialAction
+                  key={action.name}
+                  icon={action.icon}
+                  tooltipTitle={action.name}
+                  onClick={() => this.handleClick(action.href)}
+                />
             ))}
           </SpeedDial>
         </div>
