@@ -4,17 +4,17 @@ import PropTypes from 'prop-types';
 import { capitalize } from '@material-ui/core/utils/helpers';
 import SpeedDial from '@material-ui/lab/SpeedDial';
 import SpeedDialAction from '@material-ui/lab/SpeedDialAction';
-import FileCopyIcon from '@material-ui/icons/FileCopyOutlined';
-import SaveIcon from '@material-ui/icons/Save';
-import PrintIcon from '@material-ui/icons/Print';
 import ShareIcon from '@material-ui/icons/Share';
+
+import Icon from '@mdi/react'
+import { mdiFacebook, mdiTwitter, mdiWhatsapp } from '@mdi/js'
 
 import addStyles from './styles';
 
 const actions = [
-  { icon: <FileCopyIcon />, name: 'Facebook' },
-  { icon: <SaveIcon />, name: 'Twitter' },
-  { icon: <PrintIcon />, name: 'Whatsapp' },
+  { icon: <Icon path={mdiFacebook} size={1} color='orange'/>, name: 'Facebook' },
+  { icon: <Icon path={mdiTwitter} size={1} color='orange'/>, name: 'Twitter' },
+  { icon: <Icon path={mdiWhatsapp} size={1} color='orange'/>, name: 'Whatsapp' },
 ];
 
 class SpeedDials extends React.Component {
@@ -54,7 +54,7 @@ class SpeedDials extends React.Component {
             ariaLabel="Share this page"
             className={speedDialClassName}
             hidden={hidden}
-            icon={<ShareIcon />}
+            icon={<ShareIcon className={classes.rotateIcon}/>}
             onBlur={this.handleClose}
             onClick={this.handleClick}
             onClose={this.handleClose}

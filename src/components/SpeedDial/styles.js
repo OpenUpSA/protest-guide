@@ -31,6 +31,9 @@ const styles = theme => ({
     alignItems: 'flex-end'
   },
   directionDown: {},
+  rotateIcon: {
+    transform: 'rotate(180deg)'
+  }
 });
 
 
