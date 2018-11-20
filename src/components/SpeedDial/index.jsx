@@ -12,9 +12,9 @@ import { mdiFacebook, mdiTwitter, mdiWhatsapp } from '@mdi/js'
 import addStyles from './styles';
 
 const actions = [
-  { icon: <Icon path={mdiFacebook} size={1} color='orange'/>, name: 'Facebook' },
-  { icon: <Icon path={mdiTwitter} size={1} color='orange'/>, name: 'Twitter' },
-  { icon: <Icon path={mdiWhatsapp} size={1} color='orange'/>, name: 'Whatsapp' },
+  { icon: <Icon path={mdiFacebook} size={1} color='#D34727'/>, name: 'Facebook' },
+  { icon: <Icon path={mdiTwitter} size={1} color='#D34727'/>, name: 'Twitter' },
+  { icon: <Icon path={mdiWhatsapp} size={1} color='#D34727'/>, name: 'Whatsapp' },
 ];
 
 class SpeedDials extends React.Component {
