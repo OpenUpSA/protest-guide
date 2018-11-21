@@ -8,7 +8,7 @@ const styles = theme => ({
   controls: {
     margin: theme.spacing.unit * 3,
   },
-  exampleWrapper: {
+  wrapper: {
     position: 'absolute',
     height: 'auto',
     width: '100%',
@@ -22,18 +22,14 @@ const styles = theme => ({
       padding: 0,
     }
   },
-  radioGroup: {
-    margin: `${theme.spacing.unit}px 0`,
-  },
   speedDial: {
     position: 'relative',
     marginTop: '-30px',
-    alignItems: 'flex-end'
+    alignItems: 'flex-end',
   },
-  directionDown: {},
   rotateIcon: {
     transform: 'rotate(180deg)'
-  }
+  },
 });
 
 

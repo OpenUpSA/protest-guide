@@ -15,17 +15,17 @@ const actions = [
   {
     icon: <Icon path={mdiFacebook} size={1} color='#D34727'/>,
     name: 'Facebook',
-    href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A//protestguide.netlify.com/'
+    href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A//protestguide.org.za/'
   },
   {
     icon: <Icon path={mdiTwitter} size={1} color='#D34727'/>,
     name: 'Twitter',
-    href: 'https://twitter.com/home?status=https%3A//protestguide.netlify.com/'
+    href: 'https://twitter.com/home?status=https%3A//protestguide.org.za/'
   },
   {
     icon: <Icon path={mdiWhatsapp} size={1} color='#D34727'/>,
     name: 'Whatsapp',
-    href: 'whatsapp://send?text=https://protestguide.netlify.com'
+    href: 'whatsapp://send?text=https://protestguide.org.za'
   },
 ];
 
@@ -36,8 +36,8 @@ class SpeedDials extends React.Component {
     hidden: false,
   };
 
-  handleClick = (location) => {
-    window.open(location);
+  handleClick = (URL) => {
+    window.open(URL);
     this.setState(state => ({
       open: !state.open,
     }));
@@ -62,14 +62,13 @@ class SpeedDials extends React.Component {
 
     return (
       <div className={classes.root}>
-        <div className={classes.exampleWrapper}>
+        <div className={classes.wrapper}>
           <SpeedDial
             ariaLabel="Share this page"
             className={speedDialClassName}
             hidden={hidden}
             icon={<ShareIcon className={classes.rotateIcon}/>}
             onBlur={this.handleClose}
-            onClick={this.handleClick}
             onClose={this.handleClose}
             onFocus={this.handleOpen}
             onMouseEnter={this.handleOpen}
