@@ -19,6 +19,7 @@ const styles = theme => ({
 
     [theme.breakpoints.up('sm')]: {
       marginTop: 110,
+      marginBottom: 30,
     }
   },
   
@@ -112,10 +113,6 @@ const styles = theme => ({
     height: 46,
     display: 'flex',
     justifyContent: 'center',
-
-    [theme.breakpoints.up('sm')]: {
-      display: 'none',
-    }
   },
 
   buttonText: {
@@ -125,8 +122,11 @@ const styles = theme => ({
     fontFamily: 'Oswald, Arial, sans-serif',
     boxShadow: 'none',
   },
-})
 
+  buttonLink: {
+    textDecoration: 'none',
+  },
+});
 
 
 export default withStyles(styles);

@@ -1,43 +1,22 @@
 import { withStyles } from '@material-ui/core';
 
 
-const styles = theme => ({
+const styles = {
   root: {
     backgroundColor: 'white',
     minHeight: 61,
   },
 
   content: {
-    maxWidth: '960px',
+    maxWidth: 960,
     width: '100%',
     margin: '0 auto',
     display: 'flex',
     justifyContent: 'center',
-
-    [theme.breakpoints.up('sm')]: {
-      justifyContent: 'space-between',
-    }
+    height: 70,
   },
 
   button: {
-    display: 'none',
-
-    [theme.breakpoints.up('sm')]: {
-      width: '100%',
-      height: 46,
-      display: 'flex',
-      justifyContent: 'flex-end',
-    }
-  },
-
-  buttonText: {
-    fontWeight: 700,
-    padding: '4px 13px',
-    fontSize: '1.1rem',
-    fontFamily: 'Oswald, Arial, sans-serif',
-  },
-
-  buttonLeft: {
     justifyContent: 'flex-start',
     padding: 0,
     '&:hover': {
@@ -48,7 +27,7 @@ const styles = theme => ({
   buttonLogo: {
     maxWidth: 192
   }
-})
+};
 
 
 export default withStyles(styles);

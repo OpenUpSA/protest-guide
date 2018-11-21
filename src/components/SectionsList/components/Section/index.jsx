@@ -7,21 +7,20 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import ViewList from '@material-ui/icons/ViewList';
 import CheckBox from '@material-ui/icons/CheckBox';
 import Info from '@material-ui/icons/Info';
-import CheatSheet from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
-import Section3 from '../../../../documents/Protest_Toolkit_Section-3-Checklist.pdf';
-import Timeline from '../../../../documents/Protest_Toolkit_Timeline.pdf';
-import Example from '../../../../documents/Protest_Toolkit_RGA_Cheatsheet.pdf';
-import ChecklistCBefore from '../../../../documents/Protest_Toolkit_Convener_Checklist_Before.pdf';
-import ChecklistC from '../../../../documents/Protest_Toolkit_Convener_Checklist_During.pdf';
-import ChecklistM from '../../../../documents/Protest_Toolkit_Marshal_Checklist_During.pdf';
-import Conduct from '../../../../documents/Protest_Toolkit_Conduct.pdf';
-import SAPS from '../../../../documents/Protest_Toolkit_SAPS_National_Instruction.pdf';
-import Force from '../../../../documents/Protest_Toolkit_Using_Force.pdf';
-import Rights from '../../../../documents/Protest_Toolkit_Rights_Arrest.pdf';
-import Arrested from '../../../../documents/Protest_Toolkit_Being_Arrested.pdf';
-import Reporting from '../../../../documents/Protest_Toolkit_Police_Brutality.pdf';
-import Badges from '../../../../documents/Protest_Toolkit_Police_Badges.pdf';
-
+import CheatSheet from '../../../../documents/cheatsheet.pdf';
+import Section3 from '../../../../documents/section-3.pdf';
+import Timeline from '../../../../documents/timeline.pdf';
+import Example from '../../../../documents/cheatsheet.pdf';
+import ChecklistCBefore from '../../../../documents/convener-checklist-before.pdf';
+import ChecklistC from '../../../../documents/convener-checklist-during.pdf';
+import ChecklistM from '../../../../documents/marshal-checklist-during.pdf';
+import Conduct from '../../../../documents/conduct.pdf';
+import SAPS from '../../../../documents/national-instruction.pdf';
+import Force from '../../../../documents/using-force.pdf';
+import Rights from '../../../../documents/rights-arrest.pdf';
+import Arrested from '../../../../documents/being-arrested.pdf';
+import Reporting from '../../../../documents/police-brutality.pdf';
+import Badges from '../../../../documents/police-badges.pdf';
 
 import addStyles from './styles';
 
