@@ -7,20 +7,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import ViewList from '@material-ui/icons/ViewList';
 import CheckBox from '@material-ui/icons/CheckBox';
 import Info from '@material-ui/icons/Info';
-import CheatSheet from '../../../../documents/cheatsheet.pdf';
-import Section3 from '../../../../documents/section-3.pdf';
-import Timeline from '../../../../documents/timeline.pdf';
-import Example from '../../../../documents/cheatsheet.pdf';
-import ChecklistCBefore from '../../../../documents/convener-checklist-before.pdf';
-import ChecklistC from '../../../../documents/convener-checklist-during.pdf';
-import ChecklistM from '../../../../documents/marshal-checklist-during.pdf';
-import Conduct from '../../../../documents/conduct.pdf';
-import SAPS from '../../../../documents/national-instruction.pdf';
-import Force from '../../../../documents/using-force.pdf';
-import Rights from '../../../../documents/rights-arrest.pdf';
-import Arrested from '../../../../documents/being-arrested.pdf';
-import Reporting from '../../../../documents/police-brutality.pdf';
-import Badges from '../../../../documents/police-badges.pdf';
 
 import addStyles from './styles';
 
@@ -33,27 +19,6 @@ const calcIcon = (type) => {
     default: return null;
   }
 }
-
-const calcPDF = (short) => {
-  switch(short) {
-    case 'cheat' : return CheatSheet;
-    case 'section-3' : return Section3;
-    case 'timeline' : return Timeline;
-    case 'example' : return Example;
-    case 'checklistCBefore' : return ChecklistCBefore;
-    case 'checklistC' : return ChecklistC;
-    case 'checklistM' : return ChecklistM;
-    case 'conduct' : return Conduct;
-    case 'SAPS' : return SAPS;
-    case 'force' : return Force;
-    case 'rights' : return Rights;
-    case 'arrested' : return Arrested;
-    case 'reporting' : return Reporting;
-    case 'badges' : return Badges;
-    default: return null;
-  }
-}
-
 
 const Section = ({ heading, cards, classes }) => {
   const {
@@ -68,8 +33,8 @@ const Section = ({ heading, cards, classes }) => {
   } = classes;
   
 
-  const CardWrapper = ({ type, text, link, title, short }) => (
-    <a href={calcPDF(short)} className={linkWrapper} target="_blank" rel="noopener noreferrer">
+  const CardWrapper = ({ type, text, link, title }) => (
+    <a href={link} className={linkWrapper} target="_blank" rel="noopener noreferrer">
       <Card>
         <CardActionArea>
           <CardContent>

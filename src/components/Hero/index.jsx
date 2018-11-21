@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Header from '../Header';
 import protestImage from '../../images/protest-illustration.svg';
-import ProtestGuide from '../../documents/ProtestGuide.pdf';
+import ProtestGuide from '../../ProtestGuide.pdf';
 
 import addStyles from './styles';
 import Button from "@material-ui/core/Button/Button";
