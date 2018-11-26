@@ -2,7 +2,6 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Header from '../Header';
-import protestImage from '../../images/protest-illustration.svg';
 
 import addStyles from './styles';
 import Button from "@material-ui/core/Button/Button";
@@ -18,33 +17,29 @@ const Hero = ({ classes }) => {
     card,
     quote,
     attribution,
-    imageHolder,
-    image,
     button,
     buttonLink,
     buttonText,
+    paragraphText,
   } = classes;
 
   const headlineMarkup = (
     <div className={root}>
       <Header />
-      <div className={imageHolder}>
-        <img src={protestImage} className={image} alt=""></img>
-      </div>
       <h1 className={textArea}>
         <Typography variant="headline" component="span" className={smallText}>
-          Toolkit & Guide for
+          This resource is still being developed
         </Typography>
         <Typography variant="display4" component="span" className={largeText}>
-          organising
+          Check back soon
         </Typography>
-        <Typography variant="display4" component="span" className={largeText}>
-          a protest
+        <Typography variant="display4" component="span" className={paragraphText}>
+          We are currently working hard to develop and publish this resource! Please check back soon or join our mailing list to receive updates about this guide.
         </Typography>
       </h1>
-      <a href="/ProtestGuide.pdf" className={buttonLink} target="_blank" rel="noopener noreferrer">
+      <a href="/" className={buttonLink} target="_self" rel="noopener noreferrer">
         <div className={button}>
-          <Button size="large" variant="contained" color="primary" className={buttonText}>Download the Guide</Button>
+          <Button size="large" variant="contained" color="primary" className={buttonText}>Visit the homepage</Button>
         </div>
       </a>
     </div>
