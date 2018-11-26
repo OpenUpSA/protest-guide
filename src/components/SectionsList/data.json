@@ -5,28 +5,28 @@
       "type": "info",
       "text": "A quick reference sheet that will help you understand how to comply with the Regulation of Gatherings Act (RGA)",
       "short": "cheat",
-      "link": "../../../../../../cheatsheet.pdf"
+      "link": "/../../cheatsheet.pdf"
     },
     {
       "title": "Section 3 checklist",
       "type": "checks",
       "text": "A handy checklist for gathering the information you will need to complete your section 3 notice.",
       "short": "section-3",
-      "link": "../../../../../../section-3.pdf"
+      "link": "/../../section-3.pdf"
     },
     {
       "title": "Convener’s checklist",
       "type": "checks",
       "text": "A checklist of responsibilities and procedures that the convener of the protest must see to when organising the protest.",
       "short": "checklistCBefore",
-      "link": "../../../../../../convener-checklist-before.pdf"
+      "link": "/../../convener-checklist-before.pdf"
     },
     {
       "title": "Notification timeline",
       "type": "checks",
       "text": "A helpful guide for making sure all documentation, negotiation and planning is completed on time, leading up to the day of the protest.",
       "short": "timeline",
-      "link": "../../../../../../timeline.pdf"
+      "link": "/../../timeline.pdf"
     }
   ],
 
@@ -36,42 +36,42 @@
       "type": "checks",
       "text": "A checklist of responsibilities and procedures that the convener of the protest must see to during the protest.",
       "short": "checklistC",
-      "link": "../../../../../../convener-checklist-during.pdf"
+      "link": "/../../convener-checklist-during.pdf"
     },
     {
       "title": "Marshal’s checklist",
       "type": "checks",
       "text": "A checklist of responsibilities and procedures that the marshals at the protest must see to during the protest.",
       "short": "checklistM",
-      "link": "../../../../../../marshal-checklist-during.pdf"
+      "link": "/../../marshal-checklist-during.pdf"
     },
     {
       "title": "SAPS national instruction",
       "type": "info",
       "text": "A document containing standing orders for the South African Police Service during gatherings and demonstrations.",
       "short": "SAPS",
-      "link": "../../../../../../national-instruction.pdf"
+      "link": "/../../national-instruction.pdf"
     },
     {
       "title": "Escalation of force",
       "type": "info",
       "text": "A summary of the guidelines the police must follow before using force at a protest, as per the SAPS National Instruction.",
       "short": "force",
-      "link": "../../../../../../using-force.pdf"
+      "link": "/../../using-force.pdf"
     },
     {
       "title": "Identifying the police",
       "type": "info",
       "text": "What to look for when identifying public order police (POP) officers at a protest.",
       "short": "badges",
-      "link": "../../../../../../police-badges.pdf"
+      "link": "/../../police-badges.pdf"
     },
     {
       "title": "Prohibited conduct",
       "type": "info",
       "text": "A list of prohibited behavior and contraband items that could cause your protest to be shut down.",
       "short": "conduct",
-      "link": "../../../../../../conduct.pdf"
+      "link": "/../../conduct.pdf"
     }
   ],
 
@@ -81,21 +81,21 @@
       "type": "info",
       "text": "A guide to the steps you should take when documenting, reporting and pressing charges against an officer.",
       "short": "reporting",
-      "link": "../../../../../../police-brutality.pdf"
+      "link": "/../police-brutality.pdf"
     },
     {
       "title": "Being arrested",
       "type": "info",
       "text": "A guide to help you understand what constitutes a lawful arrest and what actions to take when in custody.",
       "short": "arrested",
-      "link": "../../../../../../being-arrested.pdf"
+      "link": "/../../being-arrested.pdf"
     },
     {
       "title": "Your rights if arrested or detained",
       "type": "info",
       "text": "A list of rights that must be upheld by law enforcement if you are arrested or detained.",
       "short": "rights-arrest",
-      "link": "../../../../../../rights-arrest.pdf"
+      "link": "/../../rights-arrest.pdf"
     }
   ]
 }
