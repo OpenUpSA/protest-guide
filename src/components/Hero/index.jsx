@@ -3,7 +3,6 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Header from '../Header';
 import protestImage from '../../images/protest-illustration.svg';
-import ProtestGuide from '../../documents/ProtestGuide.pdf';
 
 import addStyles from './styles';
 import Button from "@material-ui/core/Button/Button";
@@ -43,7 +42,7 @@ const Hero = ({ classes }) => {
           a protest
         </Typography>
       </h1>
-      <a href={ProtestGuide} className={buttonLink} target="_blank" rel="noopener noreferrer">
+      <a href="/../ProtestGuide.pdf" className={buttonLink} target="_blank" rel="noopener noreferrer">
         <div className={button}>
           <Button size="large" variant="contained" color="primary" className={buttonText}>Download the Guide</Button>
         </div>
