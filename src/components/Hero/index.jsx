@@ -42,7 +42,7 @@ const Hero = ({ classes }) => {
           a protest
         </Typography>
       </h1>
-      <a href="/../ProtestGuide.pdf" className={buttonLink} target="_blank" rel="noopener noreferrer">
+      <a href="/ProtestGuide.pdf" className={buttonLink} target="_blank" rel="noopener noreferrer">
         <div className={button}>
           <Button size="large" variant="contained" color="primary" className={buttonText}>Download the Guide</Button>
         </div>
