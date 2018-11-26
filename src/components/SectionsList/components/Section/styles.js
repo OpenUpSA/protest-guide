@@ -69,6 +69,12 @@ const styles = theme => ({
     fontFamily: 'Archivo Narrow, Arial, sans-serif',
     color: '#F78E20',
   },
+
+  cardHover: {
+    '&:hover': {
+      color: 'rgba(255, 144, 21, 0.8)',
+    }
+  }
 });
 
 
