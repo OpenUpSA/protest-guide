@@ -1,7 +1,5 @@
 import React from 'react';
-import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { capitalize } from '@material-ui/core/utils/helpers';
 import SpeedDial from '@material-ui/lab/SpeedDial';
 import SpeedDialAction from '@material-ui/lab/SpeedDialAction';
 import ShareIcon from '@material-ui/icons/Share';
@@ -31,7 +29,6 @@ const actions = [
 
 class SpeedDials extends React.Component {
   state = {
-    direction: 'down',
     open: false,
     hidden: false,
   };
@@ -53,19 +50,14 @@ class SpeedDials extends React.Component {
 
   render() {
     const { classes } = this.props;
-    const { direction, hidden, open } = this.state;
-
-    const speedDialClassName = classNames(
-      classes.speedDial,
-      classes[`direction${capitalize(direction)}`],
-    );
+    const { hidden, open } = this.state;
 
     return (
       <div className={classes.root}>
         <div className={classes.wrapper}>
           <SpeedDial
             ariaLabel="Share this page"
-            className={speedDialClassName}
+            className={classes.speedDial}
             hidden={hidden}
             icon={<ShareIcon className={classes.rotateIcon}/>}
             onBlur={this.handleClose}
@@ -74,7 +66,10 @@ class SpeedDials extends React.Component {
             onMouseEnter={this.handleOpen}
             onMouseLeave={this.handleClose}
             open={open}
-            direction={direction}
+            direction='down'
+            classes={{
+              fab: classes.button,
+            }}
           >
             {actions.map(action => (
                 <SpeedDialAction

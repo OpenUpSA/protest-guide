@@ -28,8 +28,13 @@ const styles = theme => ({
     alignItems: 'flex-end',
   },
   rotateIcon: {
-    transform: 'rotate(180deg)'
+    transform: 'rotate(180deg)',
   },
+  button: {
+    '&:hover': {
+      backgroundColor: '#932E13'
+    }
+  }
 });
 
 
