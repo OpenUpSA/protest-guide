@@ -65,13 +65,14 @@ const Section = ({ heading, cards, classes }) => {
     cardText,
     cardHeadingWrapper ,
     callToAction,
+    cardHover,
   } = classes;
   
 
   const CardWrapper = ({ type, text, link, title, short }) => (
     <a href={calcPDF(short)} className={linkWrapper} target="_blank" rel="noopener noreferrer">
       <Card>
-        <CardActionArea>
+        <CardActionArea className={cardHover}>
           <CardContent>
             <div className={cardHeadingWrapper}>
               <Typography gutterBottom variant="h5" component="h3" className={cardHeading}>
