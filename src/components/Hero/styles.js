@@ -121,9 +121,6 @@ const styles = theme => ({
     fontSize: '1.1rem',
     fontFamily: 'Oswald, Arial, sans-serif',
     boxShadow: 'none',
-    '&:hover': {
-      backgroundColor: '#932E13'
-    }
   },
 
   buttonLink: {
