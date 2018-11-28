@@ -32,7 +32,7 @@ const Footer = ({ classes }) => {
         <CallIcon color="primary" fontSize="large" className={callIcon}/>
 
         <a href="tel:+27117178645" className={helplineWrapper}>
-          <Button component="span" className={helplineText}>011 717 8645</Button>
+          <Button component="span" className={helplineText}>0800 212 111</Button>
         </a>
       </div>
     </div>
