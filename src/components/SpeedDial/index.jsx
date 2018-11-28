@@ -67,9 +67,6 @@ class SpeedDials extends React.Component {
             onMouseLeave={this.handleClose}
             open={open}
             direction='down'
-            classes={{
-              fab: classes.button,
-            }}
           >
             {actions.map(action => (
                 <SpeedDialAction
