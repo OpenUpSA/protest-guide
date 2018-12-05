@@ -43,7 +43,23 @@ const styles = theme => ({
     margin: '0 auto',
   
     [theme.breakpoints.up('sm')]: {
-      maxWidth: '500px',
+      maxWidth: '400px',
+      fontSize: '4.2rem',
+      letterSpacing: '0.025rem',
+    },
+  },
+
+  largeText404: {
+    fontFamily: 'Oswald, Arial, sans-serif',
+    fontWeight: 'bold',
+    color: 'white',
+    letterSpacing: '0.05rem',
+    fontSize: '3rem',
+    lineHeight: 0.95,
+    margin: '0 auto',
+
+    [theme.breakpoints.up('sm')]: {
+      maxWidth: '100%',
       fontSize: '4.2rem',
       letterSpacing: '0.025rem',
     },
@@ -126,6 +142,18 @@ const styles = theme => ({
   buttonLink: {
     textDecoration: 'none',
   },
+
+  paragraphText: {
+    maxWidth: '480px',
+    marginTop: '30px',
+    textTransform: 'none',
+    fontFamily: 'Roboto, Arial, sans-serif',
+    color: 'white',
+    letterSpacing: '0.5px',
+    fontSize: '18px',
+    lineHeight: '28px',
+    display: 'inline-block',
+  }
 });
 
 

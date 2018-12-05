@@ -8,12 +8,14 @@ import addStyles from './styles';
 import Button from "@material-ui/core/Button/Button";
 
 
-const Hero = ({ classes }) => {
+const Hero = ({ classes, ...props }) => {
   const {
     root,
     textArea,
     smallText,
     largeText,
+    largeText404,
+    paragraphText,
     cardWrapper,
     card,
     quote,
@@ -28,28 +30,31 @@ const Hero = ({ classes }) => {
   const headlineMarkup = (
     <div className={root}>
       <Header />
-      <div className={imageHolder}>
-        <img src={protestImage} className={image} alt=""></img>
-      </div>
+      {props.image &&
+        <div className={imageHolder}>
+          <img src={protestImage} className={image} alt=""></img>
+        </div>
+      }
       <h1 className={textArea}>
         <Typography variant="headline" component="span" className={smallText}>
-          Resources for
+          {props.title}
         </Typography>
-        <Typography variant="display4" component="span" className={largeText}>
-          organising
+        <Typography variant="display4" component="span" className={props.main.class === 'largeText' ? largeText : largeText404 }>
+          {props.main.content}
         </Typography>
-        <Typography variant="display4" component="span" className={largeText}>
-          a protest
-        </Typography>
+        {props.paragraph &&
+          <Typography variant="display4" component="span" className={paragraphText}>
+            {props.paragraph}
+          </Typography>
+        }
       </h1>
-      <a href="/ProtestGuide.pdf" className={buttonLink} target="_blank" rel="noopener noreferrer">
+      <a href={props.buttonContent.url} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
         <div className={button}>
-          <Button size="large" variant="contained" color="primary" className={buttonText}>Download the Guide</Button>
+          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}</Button>
         </div>
       </a>
     </div>
   )
-  
 
   const quoteMarkup = (
     <div className={cardWrapper}>

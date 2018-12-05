@@ -8,11 +8,22 @@ import Footer from '../components/Footer';
 
 const Homepage = () => (
   <BaseLayout>
-    <Hero />
+    <Hero
+      image
+      title='Toolkit & Guide for'
+      main = {{
+        content: 'organising a protest',
+        class: 'largeText'
+      }}
+      buttonContent = {{
+        text: 'Download the Guide',
+        url: '/ProtestGuide.pdf',
+        target: '_blank'
+      }}
+    />
     <SectionsList />
     <Footer />
   </BaseLayout>
 );
-
 
 export default Homepage;

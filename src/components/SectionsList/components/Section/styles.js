@@ -73,6 +73,7 @@ const styles = theme => ({
   cardHover: {
     '&:hover': {
       color: 'rgba(255, 144, 21, 0.8)',
+      backgroundColor: 'rgba(255, 144, 21, 0.08)',
     }
   }
 });
