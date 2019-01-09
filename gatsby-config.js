@@ -1,3 +1,7 @@
+const purple = require('@material-ui/core/colors/purple');
+const green = require('@material-ui/core/colors/green');
+
+
 const manifest = {
   resolve: `gatsby-plugin-manifest`,
   options: {
@@ -24,12 +28,34 @@ const googleFonts = {
 };
 
 
+const materialUiConfig = {
+  resolve: `@wapps/gatsby-plugin-material-ui`,
+  options: {
+    palette: {
+      primary: {
+        light: purple[300],
+        main: purple[500],
+        dark: purple[700],
+      },
+      secondary: {
+        light: green[300],
+        main: green[500],
+        dark: green[700],
+      },
+    },
+    typography: {
+      useNextVariants: true,
+    },
+  },
+}
+
+
 module.exports = {
   plugins: [
-    'gatsby-plugin-react-helmet',
     manifest,
-    'gatsby-plugin-offline',
     googleFonts,
-    'gatsby-plugin-sass'
+    materialUiConfig,
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-offline',
   ],
 }
