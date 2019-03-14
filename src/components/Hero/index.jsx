@@ -53,6 +53,12 @@ const Hero = ({ classes, ...props }) => {
           <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}</Button>
         </div>
       </a>
+      <br/>
+      <a href={props.buttonContent.url} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
+        <div className={button}>
+          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}</Button>
+        </div>
+      </a>
     </div>
   )
 
