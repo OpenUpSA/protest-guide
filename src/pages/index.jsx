@@ -10,13 +10,14 @@ const Homepage = () => (
   <BaseLayout>
     <Hero
       image
-      title='Toolkit & Guide for'
-      main = {{
-        content: 'organising a protest',
+      title='Guide to'
+      main={{
+        content: 'the eviction process',
         class: 'largeText'
       }}
-      buttonContent = {{
+      buttonContent={{
         text: 'Download the Guide',
+        text: 'Provide Feedback',
         url: '/ProtestGuide.pdf',
         target: '_blank'
       }}
