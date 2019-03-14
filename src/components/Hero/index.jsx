@@ -3,6 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Header from '../Header';
 import protestImage from '../../images/protest-illustration.svg';
+import styled from 'styled-components';
 
 import addStyles from './styles';
 import Button from "@material-ui/core/Button/Button";
@@ -22,10 +23,20 @@ const Hero = ({ classes, ...props }) => {
     attribution,
     imageHolder,
     image,
+    text,
     button,
     buttonLink,
     buttonText,
   } = classes;
+
+  const ButtonsContainer = styled.div`
+     @media (min-width: 650px) {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 366px;
+     }
+  `
 
   const headlineMarkup = (
     <div className={root}>
@@ -48,17 +59,19 @@ const Hero = ({ classes, ...props }) => {
           </Typography>
         }
       </h1>
+      <ButtonsContainer>
       <a href={props.buttonContent.url} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
         <div className={button}>
-          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}</Button>
+          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}Download the Guide</Button>
         </div>
-      </a>
-      <br/>
-      <a href={props.buttonContent.url} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
+        </a>
+        <br/>
+        <a href={props.buttonContent.url} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
         <div className={button}>
-          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}</Button>
+          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}Provide Feedback</Button>
         </div>
-      </a>
+        </a>
+     </ButtonsContainer>
     </div>
   )
 
@@ -67,10 +80,13 @@ const Hero = ({ classes, ...props }) => {
       <Card className={card}>
         <p>
           <Typography variant="headline" className={quote} component="span">
-            “Everyone has the right, peacefully and unarmed, to assemble, to demonstrate, to picket and to present petitions.”
+            “No one may be evicted from their home, or have their home demolished, without an order
+            of court <br />
+             made after considering <br/>
+             all relevant circumstances.”
           </Typography>
           <Typography className={attribution} component="span">
-            - Section 17 of the constitution
+            - Section 26(3) of the constitution
           </Typography>
         </p>
       </Card>
