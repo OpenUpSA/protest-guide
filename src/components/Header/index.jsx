@@ -23,6 +23,10 @@ const LogoWrapper = styled.div`
   height: 90%;
   margin-bottom: 0px;
 `
+const ButtonLink = styled(Button)`
+  height: 55px;
+  max-width: 65px;
+`
 
 const Header = ({ classes }) => {
   const { root, content, button, buttonLogo, } = classes;
@@ -33,13 +37,13 @@ const Header = ({ classes }) => {
        <HeaderContainer>
         <LogoWrapper>
           <a href='https://www.r2p.org.za/' rel="noopener noreferrer" target='_blank'>
-            <Button className={button}><img src={landLogo} className={buttonLogo} alt="ndifuna-image Logo"></img></Button>
+            <ButtonLink className={button}><img src={landLogo} className={buttonLogo} alt="ndifuna-image Logo"></img></ButtonLink>
           </a>
            <a href='https://www.r2p.org.za/' rel="noopener noreferrer" target='_blank'>
-            <Button className={button}><img src={land4pLogo} className={buttonLogo} alt="land4people Logo"></img></Button>
+            <ButtonLink className={button}><img src={land4pLogo} className={buttonLogo} alt="land4people Logo"></img></ButtonLink>
           </a>
           <a href='https://www.r2p.org.za/' rel="noopener noreferrer" target='_blank'>
-            <Button className={button}><img src={openupLogo} className={buttonLogo} alt="openup Logo"></img></Button>
+            <ButtonLink className={button}><img src={openupLogo} className={buttonLogo} alt="openup Logo"></img></ButtonLink>
           </a>
           </LogoWrapper>
         </HeaderContainer>
