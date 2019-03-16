@@ -19,6 +19,7 @@ const HeaderContainer = styled.div`
 
 const LogoWrapper = styled.div`
   display: flex;
+  justify-content: space-between;
   width: 69.3%;
   height: 90%;
   margin-bottom: 0px;
@@ -26,6 +27,13 @@ const LogoWrapper = styled.div`
 const ButtonLink = styled(Button)`
   height: 55px;
   max-width: 65px;
+  margin: 0 auto;
+`
+
+const PipeDivider = styled.div`
+  border: 1px solid lightgrey;
+  height: 45px;
+  margin: 5px;
 `
 
 const Header = ({ classes }) => {
@@ -36,13 +44,15 @@ const Header = ({ classes }) => {
       <Toolbar className={content}>
        <HeaderContainer>
         <LogoWrapper>
-          <a href='https://www.r2p.org.za/' rel="noopener noreferrer" target='_blank'>
+          <a href='http://nu.org.za/' rel="noopener noreferrer" target='_blank'>
             <ButtonLink className={button}><img src={ndifunaLogo} className={buttonLogo} alt="ndifuna-image Logo"></img></ButtonLink>
-          </a>
-           <a href='https://www.r2p.org.za/' rel="noopener noreferrer" target='_blank'>
+            </a>
+            <PipeDivider></PipeDivider>
+           <a href='http://reclaimthecity.org.za/' rel="noopener noreferrer" target='_blank'>
             <ButtonLink className={button}><img src={land4pLogo} className={buttonLogo} alt="land4people Logo"></img></ButtonLink>
-          </a>
-          <a href='https://www.r2p.org.za/' rel="noopener noreferrer" target='_blank'>
+            </a>
+            <PipeDivider></PipeDivider>
+          <a href='https://openup.org.za/' rel="noopener noreferrer" target='_blank'>
             <ButtonLink className={button}><img src={openupLogo} className={buttonLogo} alt="openup Logo"></img></ButtonLink>
           </a>
           </LogoWrapper>
