@@ -28,9 +28,9 @@ const LogoWrapper = styled.div`
   margin-bottom: 0px;
 `
 const ButtonLink = styled(Button)`
-  height: 55px;
-  width: 65px;
-  margin: 0 auto;
+  height: 50px;
+  width: 60px;
+  margin: 5px;
 `
 
 const PipeDivider = styled.div`
