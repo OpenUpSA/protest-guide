@@ -8,25 +8,29 @@ import land4pLogo from '../../images/land-for-people-logo.png';
 // import IconButton from '@material-ui/core/IconButton';
 import SpeedDials from '../SpeedDial';
 import styled from 'styled-components';
-import MenuIcon from '@material-ui/icons/Menu';
+// import MenuIcon from '@material-ui/icons/Menu';
 
 import addStyles from './styles';
 
 const HeaderContainer = styled.div`
   display: flex;
   margin-left: 0%;
+  @media (min-width: 650px) {
+      justify-content: space-between;
+      margin-right: 55%;
+     }
 `
 
 const LogoWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
-  width: 69.3%;
+  /* justify-content: space-between; */
+  width: 100%;
   height: 90%;
   margin-bottom: 0px;
 `
 const ButtonLink = styled(Button)`
   height: 55px;
-  max-width: 65px;
+  width: 65px;
   margin: 0 auto;
 `
 
@@ -57,7 +61,7 @@ const Header = ({ classes }) => {
           </a>
           </LogoWrapper>
         </HeaderContainer>
-        <MenuIcon />
+        {/* <MenuIcon /> */}
       </Toolbar>
       <SpeedDials />
       {/* <IconButton /> */}
