@@ -25,8 +25,7 @@ const styles = {
   },
 
   buttonLogo: {
-    // maxWidth: 19,
-    width:  '80%',
+    maxWidth: 192
   }
 };
 

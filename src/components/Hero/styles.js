@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core';
 
 const styles = theme => ({
   root: {
-    backgroundColor: '#D34727',
+    backgroundColor: '#003A70',
     padding: '0 0 80px',
     position: 'relative',
 
@@ -27,7 +27,7 @@ const styles = theme => ({
   smallText: {
     fontFamily: 'Oswald, Arial, sans-serif',
     fontWeight: 'bold',
-    color: '#FF9015',
+    color: '#3A8DDE',
     letterSpacing: '0.05rem',
     fontSize: '24px',
     lineHeight: 0.8,
@@ -88,7 +88,7 @@ const styles = theme => ({
   quote: {
     fontSize: '28px',
     textAlign: 'center',
-    width: '94%',
+    minWidth: '98%',
     fontFamily: 'Oswald, Arial, sans-serif',
     margin: '0 auto',
 
@@ -102,7 +102,7 @@ const styles = theme => ({
     marginTop: '1.5rem',
     display: 'block',
     fontSize: '1rem',
-    color: '#FF9015',
+    color: '#3A8DDE',
     textAlign: 'center',
     fontFamily: 'Oswald, Arial, sans-serif',
   },
