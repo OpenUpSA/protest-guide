@@ -23,7 +23,6 @@ const HeaderContainer = styled.div`
 
 const LogoWrapper = styled.div`
   display: flex;
-  /* justify-content: space-between; */
   width: 100%;
   height: 90%;
   margin-bottom: 0px;
@@ -36,7 +35,7 @@ const ButtonLink = styled(Button)`
 
 const PipeDivider = styled.div`
   border: 1px solid lightgrey;
-  height: 45px;
+  height: 55px;
   margin: 5px;
 `
 

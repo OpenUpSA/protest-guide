@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import Header from '../Header';
-import protestImage from '../../images/header-illustration.png';
+import doorImage from '../../images/header-illustration.png';
 import styled from 'styled-components';
 
 import addStyles from './styles';
@@ -48,7 +48,7 @@ const Hero = ({ classes, ...props }) => {
       <Header />
       {props.image &&
         <div className={imageHolder}>
-          <img src={protestImage} className={image} alt=""></img>
+          <img src={doorImage} className={image} alt=""></img>
         </div>
       }
       <h1 className={textArea}>
