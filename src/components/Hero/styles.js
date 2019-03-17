@@ -1,17 +1,18 @@
 import { withStyles } from '@material-ui/core';
+// import { red } from '@material-ui/core/colors';
 
 
 const styles = theme => ({
   root: {
-    backgroundColor: '#D34727',
+    backgroundColor: '#003A70',
     padding: '0 0 80px',
     position: 'relative',
-  
+
     [theme.breakpoints.up('sm')]: {
       padding: '0 0 130px',
     }
   },
-  
+
   textArea: {
     textTransform: 'uppercase',
     textAlign: 'center',
@@ -22,17 +23,17 @@ const styles = theme => ({
       marginBottom: 30,
     }
   },
-  
+
   smallText: {
     fontFamily: 'Oswald, Arial, sans-serif',
     fontWeight: 'bold',
-    color: '#FF9015',
+    color: '#3A8DDE',
     letterSpacing: '0.05rem',
     fontSize: '24px',
     lineHeight: 0.8,
     display: 'inline-block',
   },
-  
+
   largeText: {
     fontFamily: 'Oswald, Arial, sans-serif',
     fontWeight: 'bold',
@@ -41,7 +42,7 @@ const styles = theme => ({
     fontSize: '3rem',
     lineHeight: 0.95,
     margin: '0 auto',
-  
+
     [theme.breakpoints.up('sm')]: {
       maxWidth: '400px',
       fontSize: '4.2rem',
@@ -75,7 +76,8 @@ const styles = theme => ({
     position: 'relative',
     bottom: '35px',
     padding: '20px',
-  
+    minHeight: '55.01%',
+
     [theme.breakpoints.up('sm')]: {
       margin: '0 2rem',
       padding: '30px 60px',
@@ -84,11 +86,12 @@ const styles = theme => ({
   },
 
   quote: {
-    fontSize: '1rem',
+    fontSize: '28px',
     textAlign: 'center',
-    maxWidth: 415,
+    minWidth: '98%',
     fontFamily: 'Oswald, Arial, sans-serif',
-  
+    margin: '0 auto',
+
     [theme.breakpoints.up('sm')]: {
       fontSize: '1.5rem',
       lineHeight: '2rem',
@@ -99,7 +102,7 @@ const styles = theme => ({
     marginTop: '1.5rem',
     display: 'block',
     fontSize: '1rem',
-    color: '#FF9015',
+    color: '#3A8DDE',
     textAlign: 'center',
     fontFamily: 'Oswald, Arial, sans-serif',
   },

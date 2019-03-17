@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/core';
 
 const styles = theme => ({
   helpline: {
-    backgroundColor: '#D34727',
+    backgroundColor: '#003A70',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -41,7 +41,7 @@ const styles = theme => ({
   },
 
   links: {
-    backgroundColor: '#FF9015',
+    backgroundColor: '#3A8DDE',
     padding: '30px',
     display: 'flex',
     flexDirection: 'column',

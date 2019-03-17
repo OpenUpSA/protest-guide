@@ -8,7 +8,7 @@ import { linksList } from './data.json';
 
 
 const Footer = ({ classes }) => {
-  const { 
+  const {
     helpline,
     helplineWrapper,
     helplineText,
@@ -26,19 +26,18 @@ const Footer = ({ classes }) => {
   const helplineMarkup = (
     <div className={helpline}>
       <div className={helpLineSpan}>
-        <Typography component="span" className={helpLineTitle}>Right2Protest helpline</Typography>
+        <Typography component="span" className={helpLineTitle}>Reclaim the city</Typography>
       </div>
       <div className={helpLineSpan}>
         <CallIcon color="primary" fontSize="large" className={callIcon}/>
 
         <a href="tel:+27117178645" className={helplineWrapper}>
-          <Button component="span" className={helplineText}>0800 212 111</Button>
+          <Button component="span" className={helplineText}>+27 (0)21 012 5094</Button>
         </a>
       </div>
     </div>
   );
-  
-  
+
   const linksMarkup = (
     <div className={links}>
       {

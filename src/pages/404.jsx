@@ -2,7 +2,7 @@ import React from 'react'
 
 import BaseLayout from '../components/BaseLayout';
 import Hero from '../components/Hero';
-import SectionsList from '../components/SectionsList';
+// import SectionsList from '../components/SectionsList';
 import Footer from '../components/Footer';
 
 const notFound = () => (
@@ -20,7 +20,7 @@ const notFound = () => (
       }}
       paragraph = 'We are currently working hard to develop and publish this resource! Please check back soon or join our mailing list to receive updates about this guide.'
     />
-    <SectionsList />
+    {/* <SectionsList /> */}
     <Footer />
   </BaseLayout>
 );
