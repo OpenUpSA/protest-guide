@@ -23,11 +23,6 @@ const styles = {
       backgroundColor: 'transparent',
     },
   },
-
-  buttonLogo: {
-    width: '65px',
-    height: '55px',
-  }
 };
 
 

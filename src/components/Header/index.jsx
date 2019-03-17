@@ -35,7 +35,7 @@ const ButtonLink = styled(Button)`
 
 const PipeDivider = styled.div`
   border: 1px solid lightgrey;
-  height: 55px;
+  height: 50px;
   margin: 5px;
 `
 
@@ -48,15 +48,15 @@ const Header = ({ classes }) => {
        <HeaderContainer>
         <LogoWrapper>
           <a href='http://nu.org.za/' rel="noopener noreferrer" target='_blank'>
-            <ButtonLink className={button}><img src={ndifunaLogo} className={buttonLogo} alt="ndifuna-image Logo"></img></ButtonLink>
+            <ButtonLink className={button}><img src={ndifunaLogo} className={buttonLogo} height="44" width="65" alt="ndifuna-image Logo"></img></ButtonLink>
             </a>
             <PipeDivider></PipeDivider>
            <a href='http://reclaimthecity.org.za/' rel="noopener noreferrer" target='_blank'>
-            <ButtonLink className={button}><img src={land4pLogo} className={buttonLogo} alt="land4people Logo"></img></ButtonLink>
+            <ButtonLink className={button}><img src={land4pLogo} className={buttonLogo} height="51" width="65" alt="land4people Logo"></img></ButtonLink>
             </a>
             <PipeDivider></PipeDivider>
           <a href='https://openup.org.za/' rel="noopener noreferrer" target='_blank'>
-            <ButtonLink className={button}><img src={openupLogo} className={buttonLogo} alt="openup Logo"></img></ButtonLink>
+            <ButtonLink className={button}><img src={openupLogo} height="30" width="65" className={buttonLogo} alt="openup Logo"></img></ButtonLink>
           </a>
           </LogoWrapper>
         </HeaderContainer>

@@ -11,7 +11,7 @@ const manifest = {
     background_color: '#FF9015',
     theme_color: '#FF9015',
     display: 'standalone',
-    icon: 'src/images/icon.png',
+    icon: 'src/images/house-icon.png',
   },
 };
 
